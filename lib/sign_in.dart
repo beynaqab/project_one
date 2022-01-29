@@ -1,3 +1,4 @@
+import 'package:ahsanfirst/stack.dart';
 import 'package:flutter/material.dart';
 import 'package:ahsanfirst/login_page.dart';
 
@@ -29,20 +30,51 @@ class _sign_in_STFState extends State<sign_in_STF> {
             child: Column(
               children: [
                  Container(
-                    height: height * 0.25,
+                    height: height * 0.20,
                     width: width * 1,
                     color: Colors. red,
                     child: Center(
                       child: Text(
-                        "My First App",
+                        "جی آیاں نوں",
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                          fontFamily: "urdu",
                         ),
                       ),
                     ),
                   ),
+                Container(
+                  height: height * 0.001,
+                  width: width * 1,
+                  color: Colors. white,
+                  child: Center(
+                    child: Text(
+                      "میں نے ٹیکسٹ لکھنا سیکھ لیا ہے۔",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontFamily: "urdu",
+                      ),
+                    ),
+                  ),
+                ),
+
+                Container(
+                  height: height * 0.05,
+                  width: width * 1,
+                  color: Colors. red,
+                  child: Center(
+                    child: Text(
+                      "میں نے ٹیکسٹ لکھنا سیکھ لیا ہے۔",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontFamily: "urdu",
+                      ),
+                    ),
+                  ),
+                ),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -65,15 +97,11 @@ class _sign_in_STFState extends State<sign_in_STF> {
                       width: width * .49,
                       color: Colors.pinkAccent,
                       child: Center(
-                        child: Text(
-                          "1",
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
+                        child: Stack(
+
+
+                        )
+                           ),
 
                     ),
                     Container(

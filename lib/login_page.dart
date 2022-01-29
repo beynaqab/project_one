@@ -101,14 +101,23 @@ class _loginPage_STFState extends State<loginPage_STF> {
 
           Container(
               width: width * 1,
-              height: height * .08,
+              height: height * .001,
+            color: Colors.pink,
                ),
 
+          Container(
+            margin: EdgeInsets.only(left: width * .4, top: height * .03),
+            padding: EdgeInsets.only(top: height * .1, left: width * .3, right: width * 0.4, bottom: height * .3),
+
+            width: width * .08,
+            height: height * .08,
+            color: Colors.red,
+          ),
 
           //image container
           Container(
-            width: width * .3,
-            height: height * .3,
+            width: width * .7,
+            height: height * .7,
               child: Image.asset("assets/images/one.jpeg")),
           //image container
 
@@ -118,7 +127,7 @@ class _loginPage_STFState extends State<loginPage_STF> {
             color: Colors.white,
             child: Center(
               child: Text(
-                "",
+                "Its Text",
                 style: TextStyle(
                   color: Colors.black87,
                   fontWeight: FontWeight.bold,
